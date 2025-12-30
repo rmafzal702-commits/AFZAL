@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://toolgoai.com/</loc>
+        <lastmod>2024-12-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+    <loc>https://toolgoai.com/tools/signature-generator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/joke-generator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/meme-generator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/emoji-finder</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/emoji-converter</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/adsense-calculator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/youtube-money-calculator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/tiktok-money-calculator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://toolgoai.com/tools/instagram-money-calculator</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+    <!-- PDF Tools -->
+    <url><loc>https://toolgoai.com/ready-tools/pdf-to-word.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/word-to-pdf.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/pdf-to-jpg.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/jpg-to-pdf.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/pdf-to-excel.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/excel-to-pdf.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/pdf-to-ppt.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/ppt-to-pdf.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/pdf-ocr.html</loc><priority>0.8</priority></url>
+
+    <!-- Media Tools -->
+    <url><loc>https://toolgoai.com/ready-tools/youtube-to-mp3.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/mp4-to-mp3.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/wav-to-mp3.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/image-compressor.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/image-converter.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/image-resizer.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/image-filter.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/color-picker.html</loc><priority>0.7</priority></url>
+
+    <!-- Text Tools -->
+    <url><loc>https://toolgoai.com/ready-tools/qr-code-generator.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/password-generator.html</loc><priority>0.9</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/signature-generator.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/word-counter.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/case-converter.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/text-reverser.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/text-trimmer.html</loc><priority>0.7</priority></url>
+
+    <!-- Calculator Tools -->
+    <url><loc>https://toolgoai.com/ready-tools/age-calculator.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/bmi-calculator.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/date-calculator.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/percentage-calculator.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/currency-converter.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/unit-converter.html</loc><priority>0.8</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/temperature-converter.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/weight-converter.html</loc><priority>0.7</priority></url>
+
+    <!-- Developer Tools -->
+    <url><loc>https://toolgoai.com/ready-tools/json-formatter.html</loc><priority>0.7</priority></url>
+    <url><loc>https://toolgoai.com/ready-tools/url-encoder.html</loc><priority>0.7</priority></url>
+
+    <!-- Static Pages -->
+    <url><loc>https://toolgoai.com/privacy-policy</loc><priority>0.5</priority></url>
+    <url><loc>https://toolgoai.com/terms</loc><priority>0.5</priority></url>
+    <url><loc>https://toolgoai.com/contact</loc><priority>0.5</priority></url>
+    <url><loc>https://toolgoai.com/disclaimer</loc><priority>0.5</priority></url>
+</urlset>

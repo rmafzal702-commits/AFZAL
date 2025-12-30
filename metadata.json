@@ -1,0 +1,28 @@
+{
+  "website": {
+    "name": "ToolGoAI",
+    "tagline": "Your All-in-One Digital Toolkit",
+    "description": "Professional online tools for students, freelancers, developers, designers, and marketers. Free, fast, and easy to use.",
+    "url": "https://toolgoai.com",
+    "author": "ToolGoAI Team",
+    "version": "1.0.0"
+  },
+  "seo": {
+    "keywords": "online tools, free tools, web tools, developer tools, text tools, image tools, calculators, converters",
+    "ogImage": "assets/og-image.jpg",
+    "twitterCard": "summary_large_image"
+  },
+  "contact": {
+    "email": "contact@toolgoai.com",
+    "supportEmail": "support@toolgoai.com"
+  },
+  "social": {
+    "twitter": "https://twitter.com/toolgoai",
+    "facebook": "https://facebook.com/toolgoai",
+    "linkedin": "https://linkedin.com/company/toolgoai"
+  },
+  "adsense": {
+    "enabled": true,
+    "adsterraCompatible": true
+  }
+}

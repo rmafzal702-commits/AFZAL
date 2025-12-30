@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ToolGoAI - Your all-in-one digital toolkit. Free online tools for students, freelancers, developers, designers, and marketers. Professional, fast, and easy to use.">
+    <meta name="keywords"
+        content="online tools, free tools, web tools, developer tools, text tools, image tools, calculators, converters, productivity tools">
+    <meta name="author" content="ToolGoAI Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ToolGoAI - Your All-in-One Digital Toolkit">
+    <meta property="og:description"
+        content="Professional online tools for students, freelancers, developers, designers, and marketers. Free, fast, and easy to use.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://toolgoai.com">
+    <meta property="og:image" content="https://toolgoai.com/assets/og-image.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ToolGoAI - Your All-in-One Digital Toolkit">
+    <meta name="twitter:description"
+        content="Professional online tools for students, freelancers, developers, designers, and marketers.">
+    <meta name="twitter:image" content="https://toolgoai.com/assets/og-image.jpg">
+
+    <title>ToolGoAI - Free Online Tools for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://toolgoai.com">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">ToolGoAI</span>
+                </a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Your All-in-One Digital Toolkit</h1>
+                <p class="hero-subtitle">Professional online tools for students, freelancers, developers, designers, and
+                    marketers. Free, fast, and easy to use.</p>
+                <div class="hero-search">
+                    <input type="text" id="toolSearch" placeholder="Search for tools..." aria-label="Search tools">
+                    <button class="search-btn" aria-label="Search">🔍</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All Tools</button>
+                <button class="category-btn" data-category="text">Text Tools</button>
+                <button class="category-btn" data-category="image">Image Tools</button>
+                <button class="category-btn" data-category="developer">Developer Tools</button>
+                <button class="category-btn" data-category="calculator">Calculators</button>
+                <button class="category-btn" data-category="converter">Converters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Grid -->
+    <section class="tools-section">
+        <div class="container">
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Text Tools -->
+                <a href="ready-tools/word-counter.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">📝</div>
+                    <h3 class="tool-title">Word Counter</h3>
+                    <p class="tool-description">Count words, characters, sentences, and paragraphs in your text
+                        instantly.</p>
+                </a>
+
+                <a href="ready-tools/case-converter.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">🔤</div>
+                    <h3 class="tool-title">Case Converter</h3>
+                    <p class="tool-description">Convert text to uppercase, lowercase, title case, or sentence case.</p>
+                </a>
+
+                <a href="ready-tools/text-trimmer.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">✂️</div>
+                    <h3 class="tool-title">Text Trimmer</h3>
+                    <p class="tool-description">Remove extra spaces, line breaks, and whitespace from your text.</p>
+                </a>
+
+                <a href="ready-tools/text-reverser.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">🔀</div>
+                    <h3 class="tool-title">Text Reverser</h3>
+                    <p class="tool-description">Reverse your text, words, or sentences with one click.</p>
+                </a>
+
+                <!-- Image Tools -->
+                <a href="ready-tools/image-resizer.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">🖼️</div>
+                    <h3 class="tool-title">Image Resizer</h3>
+                    <p class="tool-description">Resize images to any dimension while maintaining quality.</p>
+                </a>
+
+                <a href="ready-tools/image-compressor.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">🎨</div>
+                    <h3 class="tool-title">Image Compressor</h3>
+                    <p class="tool-description">Compress images to reduce file size without losing quality.</p>
+                </a>
+
+                <a href="ready-tools/image-converter.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">🔄</div>
+                    <h3 class="tool-title">Image Converter</h3>
+                    <p class="tool-description">Convert images between different formats (JPG, PNG, WebP, etc.).</p>
+                </a>
+
+                <a href="ready-tools/image-filter.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">✨</div>
+                    <h3 class="tool-title">Image Filter</h3>
+                    <p class="tool-description">Apply filters and effects to your images instantly.</p>
+                </a>
+
+                <!-- Developer Tools -->
+                <a href="ready-tools/base64-encoder.html" class="tool-card" data-category="developer">
+                    <div class="tool-icon">🔐</div>
+                    <h3 class="tool-title">Base64 Encoder</h3>
+                    <p class="tool-description">Encode and decode text or files to Base64 format.</p>
+                </a>
+
+                <a href="ready-tools/color-picker.html" class="tool-card" data-category="developer">
+                    <div class="tool-icon">🎨</div>
+                    <h3 class="tool-title">Color Picker</h3>
+                    <p class="tool-description">Pick colors and get HEX, RGB, and HSL values instantly.</p>
+                </a>
+
+                <a href="ready-tools/json-formatter.html" class="tool-card" data-category="developer">
+                    <div class="tool-icon">📐</div>
+                    <h3 class="tool-title">JSON Formatter</h3>
+                    <p class="tool-description">Format, validate, and beautify JSON data easily.</p>
+                </a>
+
+                <a href="ready-tools/url-encoder.html" class="tool-card" data-category="developer">
+                    <div class="tool-icon">🔗</div>
+                    <h3 class="tool-title">URL Encoder</h3>
+                    <p class="tool-description">Encode and decode URLs for safe transmission.</p>
+                </a>
+
+                <!-- Calculators -->
+                <a href="ready-tools/age-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">🧮</div>
+                    <h3 class="tool-title">Age Calculator</h3>
+                    <p class="tool-description">Calculate your exact age in years, months, and days.</p>
+                </a>
+
+                <a href="ready-tools/percentage-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">💰</div>
+                    <h3 class="tool-title">Percentage Calculator</h3>
+                    <p class="tool-description">Calculate percentages, discounts, and increases easily.</p>
+                </a>
+
+                <a href="ready-tools/bmi-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">📊</div>
+                    <h3 class="tool-title">BMI Calculator</h3>
+                    <p class="tool-description">Calculate your Body Mass Index and health status.</p>
+                </a>
+
+                <a href="ready-tools/date-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">📅</div>
+                    <h3 class="tool-title">Date Calculator</h3>
+                    <p class="tool-description">Calculate date differences and add/subtract days.</p>
+                </a>
+
+                <!-- Converters -->
+                <a href="ready-tools/unit-converter.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">📏</div>
+                    <h3 class="tool-title">Unit Converter</h3>
+                    <p class="tool-description">Convert between different units of measurement.</p>
+                </a>
+
+                <a href="ready-tools/currency-converter.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">💱</div>
+                    <h3 class="tool-title">Currency Converter</h3>
+                    <p class="tool-description">Convert currencies with real-time exchange rates.</p>
+                </a>
+
+                <a href="ready-tools/temperature-converter.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">🌡️</div>
+                    <h3 class="tool-title">Temperature Converter</h3>
+                    <p class="tool-description">Convert between Celsius, Fahrenheit, and Kelvin.</p>
+                </a>
+
+                <a href="ready-tools/weight-converter.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">⚖️</div>
+                    <h3 class="tool-title">Weight Converter</h3>
+                    <p class="tool-description">Convert between kilograms, pounds, ounces, and more.</p>
+                </a>
+
+                <!-- New Audio/Video Tools -->
+                <a href="ready-tools/wav-to-mp3.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">🎵</div>
+                    <h3 class="tool-title">WAV to MP3</h3>
+                    <p class="tool-description">Convert WAV audio files to MP3 format with trimming options.</p>
+                </a>
+
+                <a href="ready-tools/mp4-to-mp3.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">🎬</div>
+                    <h3 class="tool-title">MP4 to MP3</h3>
+                    <p class="tool-description">Extract audio from video files (MP4, MOV, WEBM) securely.</p>
+                </a>
+
+                <!-- New PDF Tools -->
+                <!-- PDF to Word -->
+                <a href="ready-tools/pdf-to-word.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📝</div>
+                    <h3 class="tool-title">PDF to Word Converter</h3>
+                    <p class="tool-description">Convert PDF documents to editable Word files instantly.</p>
+                </a>
+
+                <!-- PDF to JPG -->
+                <a href="ready-tools/pdf-to-jpg.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">🖼️</div>
+                    <div class="tool-title">PDF to JPG</div>
+                    <p class="tool-description">Extract pages from PDF files as high-quality JPG images.</p>
+                </a>
+
+                <!-- JPG to PDF -->
+                <a href="ready-tools/jpg-to-pdf.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📷</div>
+                    <div class="tool-title">JPG to PDF</div>
+                    <p class="tool-description">Merge multiple images into a single professional PDF document.</p>
+                </a>
+
+                <!-- PDF OCR -->
+                <a href="ready-tools/pdf-ocr.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">👁️</div>
+                    <div class="tool-title">PDF OCR</div>
+                    <p class="tool-description">Extract editable text from scanned PDF documents and images.</p>
+                </a>
+
+                <!-- PDF to Excel -->
+                <a href="ready-tools/pdf-to-excel.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📊</div>
+                    <div class="tool-title">PDF to Excel</div>
+                    <p class="tool-description">Convert PDF tables to editable Excel spreadsheets.</p>
+                </a>
+
+                <!-- PDF to PPT -->
+                <a href="ready-tools/pdf-to-ppt.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📽️</div>
+                    <div class="tool-title">PDF to PPT</div>
+                    <p class="tool-description">Convert PDF documents to editable PowerPoint slides.</p>
+                </a>
+
+                <!-- Word to PDF -->
+                <a href="ready-tools/word-to-pdf.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📝</div>
+                    <h3 class="tool-title">Word to PDF Converter</h3>
+                    <p class="tool-description">Convert Microsoft Word documents to PDF format.</p>
+                </a>
+
+
+
+                <!-- QR Code Generator -->
+                <a href="ready-tools/qr-code-generator.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">📱</div>
+                    <div class="tool-title">QR Code Generator</div>
+                    <p class="tool-description">Create custom QR codes for URLs and text instantly.</p>
+                </a>
+
+
+
+                <!-- Password Generator -->
+                <a href="ready-tools/password-generator.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">🔐</div>
+                    <div class="tool-title">Password Generator</div>
+                    <p class="tool-description">Generate strong and secure random passwords.</p>
+                </a>
+
+
+
+                <!-- Signature Generator -->
+                <a href="ready-tools/signature-generator.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">✍️</div>
+                    <h3>Signature Maker</h3>
+                    <p>Create digital signatures offline.</p>
+                </a>
+
+                <!-- Entertainment Tools -->
+                <a href="ready-tools/joke-generator.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">😂</div>
+                    <h3>Joke Generator</h3>
+                    <p>Generate clean, funny jokes instantly.</p>
+                </a>
+                <a href="ready-tools/meme-generator.html" class="tool-card" data-category="image">
+                    <div class="tool-icon">🖼️</div>
+                    <h3>Meme Generator</h3>
+                    <p>Create viral memes with custom text.</p>
+                </a>
+                <a href="ready-tools/emoji-finder.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">😀</div>
+                    <h3>Emoji Finder</h3>
+                    <p>Search and copy emojis easily.</p>
+                </a>
+                <a href="ready-tools/emoji-converter.html" class="tool-card" data-category="text">
+                    <div class="tool-icon">🔡</div>
+                    <h3>Emoji Converter</h3>
+                    <p>Translate text to emojis automatically.</p>
+                </a>
+
+                <!-- Earnings Calculators -->
+                <a href="ready-tools/adsense-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">💰</div>
+                    <h3>AdSense Calculator</h3>
+                    <p>Estimate website ad revenue.</p>
+                </a>
+                <a href="ready-tools/youtube-money-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">📺</div>
+                    <h3>YouTube Calculator</h3>
+                    <p>Estimate channel earnings & RPM.</p>
+                </a>
+                <a href="ready-tools/tiktok-money-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">🎵</div>
+                    <h3>TikTok Calculator</h3>
+                    <p>Estimate earnings per video post.</p>
+                </a>
+                <a href="ready-tools/instagram-money-calculator.html" class="tool-card" data-category="calculator">
+                    <div class="tool-icon">📸</div>
+                    <h3>Instagram Calculator</h3>
+                    <p>Calculate sponsored post value.</p>
+                </a>
+
+                <!-- Excel to PDF -->
+                <a href="ready-tools/excel-to-pdf.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📊</div>
+                    <div class="tool-title">Excel to PDF</div>
+                    <p class="tool-description">Convert Excel spreadsheets (XLS, XLSX) into PDF documents.</p>
+                </a>
+
+                <!-- PPT to PDF -->
+                <a href="ready-tools/ppt-to-pdf.html" class="tool-card" data-category="pdf">
+                    <div class="tool-icon">📽️</div>
+                    <div class="tool-title">PPT to PDF</div>
+                    <p class="tool-description">Convert PowerPoint presentations to secure PDF files.</p>
+                </a>
+
+                <!-- YouTube to MP3 -->
+                <a href="ready-tools/youtube-to-mp3.html" class="tool-card" data-category="converter">
+                    <div class="tool-icon">🔴</div>
+                    <h3 class="tool-title">YouTube to MP3</h3>
+                    <p class="tool-description">Convert YouTube video links to high-quality MP3 audio.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose ToolGoAI?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>All tools run instantly in your browser with no server delays.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>100% Secure</h3>
+                    <p>Your data never leaves your device. Complete privacy guaranteed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Works perfectly on all devices - desktop, tablet, and mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🆓</div>
+                    <h3>Completely Free</h3>
+                    <p>All tools are free to use with no hidden charges or subscriptions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ToolGoAI</h3>
+                    <p>Your trusted source for professional online tools. Making digital work easier for everyone.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ToolGoAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
